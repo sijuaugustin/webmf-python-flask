@@ -5,6 +5,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 
+
 # Install app dependencies
 COPY requirements.txt /usr/src/app/
 RUN pip install -r requirements.txt
